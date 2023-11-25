@@ -79,7 +79,7 @@ int main(int argc, char **argv)
           cout << endl;
      }
 
-     // 矩阵运算（PS：类型/维度要一致）
+     // 矩阵运算（PS：类型和维度要一致）
      Matrix<double, 3, 1> result = matrix_34 * V_4d;
      Matrix<float, 2, 1> result2 = matrix_24 * V_4d.cast<float>();
 
